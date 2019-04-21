@@ -18,6 +18,8 @@ use Mockery;
  */
 class SearchHitIteratorTest extends \PHPUnit\Framework\TestCase
 {
+    /** @var \Mockery\MockInterface|SearchResponseIterator $searchResponse*/
+    private $searchResponse;
 
     public function setUp()
     {
